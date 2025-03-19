@@ -1,0 +1,134 @@
+/* Main Container */
+.result-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 25px;
+  background: linear-gradient(to right, #f3f8fc, #eaf6ff); /* Softer gradient */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.result-title {
+  font-size: 28px;
+  color: #1e3a8a; /* Deep blue for heading */
+  margin-bottom: 20px;
+}
+
+/* Result Content */
+.result-content {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Summary Text */
+.result-summary {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Result Status */
+.result-status {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Resistant Style */
+.resistant {
+  background-color: #ffebee;
+  border: 2px solid #e57373;
+}
+
+/* Susceptible Style */
+.susceptible {
+  background-color: #e8f5e9;
+  border: 2px solid #81c784;
+}
+
+/* Result Text */
+.result-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Description */
+.result-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Result Image */
+.result-image {
+  width: 120px;
+  height: 120px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+/* Info Section */
+.result-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Info Text */
+.info-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center aligned buttons */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Back Button */
+.back-btn {
+  background-color: #64b5f6; /* Softer blue */
+  color: white;
+}
+
+.back-btn:hover {
+  background-color: #42a5f5; /* Slightly darker blue on hover */
+}
+
+/* About Button */
+.about-btn {
+  background-color: #9575cd; /* Pleasant purple */
+  color: white;
+}
+
+.about-btn:hover {
+  background-color: #7e57c2;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

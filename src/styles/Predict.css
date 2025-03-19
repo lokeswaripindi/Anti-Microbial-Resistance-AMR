@@ -1,0 +1,83 @@
+.predict-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #e6f7ff, #d9f3e4); /* Light Blue & Mint Green */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Overall Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #dfe9f3, #f7f9fc); /* Soft Sky Blue */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading Styles */
+h2 {
+  color: #2c3e50; /* Deep Gray-Blue */
+  margin-bottom: 20px;
+}
+
+/* Form Container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label Styles */
+label {
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Input and Dropdown Styles */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #fff;
+  color: #333;
+}
+
+/* Button Styles */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Error Message */
+.error-message {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .predict-container {
+    width: 90%;
+    padding: 20px;
+  }
+}

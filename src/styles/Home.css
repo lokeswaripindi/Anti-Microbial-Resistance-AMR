@@ -1,0 +1,110 @@
+/* General Container Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assets/background.jpg"); /* Or use /images/background.jpg if in public */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Welcome Message */
+.home-heading {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff; /* White text for contrast */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); /* Add shadow for readability */
+}
+
+/* Authentication Box */
+.auth-section {
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95); /* White box with slight transparency */
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4caf50;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Google Signup Button */
+.google-signup {
+  background-color: #4285f4;
+}
+
+.google-signup:hover {
+  background-color: #357ae8;
+}
+
+/* Create New Account Button */
+.new-account-btn {
+  background-color: #ff9800;
+}
+
+.new-account-btn:hover {
+  background-color: #f57c00;
+}
+
+/* Error Message */
+.error-message {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* Optional Links */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .auth-section {
+    width: 90%;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+/* Force Apply Footer Styles */
+.footer-container {
+  width: 100%;
+  background: #F0E68C !important; /* ✅ Khaki background */
+  color: #3E2723 !important; /* ✅ Dark Brown text */
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  border-top: 3px solid #8B4513; /* ✅ Saddle Brown border */
+}
+
+/* Ensure Links Are Styled Properly */
+.footer-container a {
+  color: #4A2C2A !important; /* ✅ Dark reddish-brown */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+  color: #8B4513 !important; /* ✅ Saddle Brown */
+}
